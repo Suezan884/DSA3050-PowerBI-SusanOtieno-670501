@@ -495,17 +495,19 @@ Screenshots of the completed dashboard pages can be included below.
 
 ### Page 1 — Executive Sales Overview
 
-*Insert screenshot of Page 1 here.*
+
 
 ### Page 2 — Customer & Transaction Analysis
 
-*Insert screenshot of Page 2 here.*
+
 
 ### Data Model
 
-*Insert screenshot of the completed Power BI Model View here.*
+<img width="975" height="429" alt="image" src="https://github.com/user-attachments/assets/45cbbc9d-800e-459c-bc13-e5fa9872feda" />
 
-The final screenshot for Page 3 will be added after the Advanced/Diagnostic Analysis page is completed.
+
+<img width="975" height="461" alt="image" src="https://github.com/user-attachments/assets/0aad8716-5977-40a4-905e-f8fb6d50f590" />
+
 
 ---
 
