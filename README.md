@@ -15,8 +15,26 @@ The project involved:
 * Analysis of sales and customer performance
 
 ---
+## 2. Business Problem
 
-## 2. Dataset
+The business has a large volume of online retail transaction data but needs a clear and interactive way to understand its sales performance, customer behaviour, product performance, geographical differences, and returns. Without proper analysis, it can be difficult to identify high-value customers and products, monitor sales trends, and determine areas requiring attention.
+
+## 3. Business Objective
+
+The objective of this project is to develop an interactive **Power BI dashboard** that transforms online retail transaction data into meaningful insights to support data-driven business decision-making.
+
+The dashboard aims to:
+
+* Monitor overall sales performance using revenue, transactions, quantity, and average order value.
+* Identify high-performing products and their contribution to revenue.
+* Analyse customer behaviour and identify high-value customers.
+* Compare sales and customer performance across countries.
+* Monitor returns and transaction status.
+* Analyse revenue trends over time.
+* Provide interactive filtering to allow users to explore performance by year, country, customer, and product.
+---
+
+## 4. Dataset
 
 * **Dataset:** Online Retail
 * **Source:** UCI Machine Learning Repository
@@ -40,7 +58,7 @@ The dataset was selected because it supports analysis of sales trends, customer 
 
 ---
 
-# 3. Data Preparation and Transformation
+# 5. Data Preparation and Transformation
 
 The dataset was cleaned and transformed using **Power Query** before being loaded into the Power BI data model.
 
