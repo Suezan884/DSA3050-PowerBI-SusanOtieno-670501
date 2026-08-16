@@ -37,7 +37,7 @@ The dashboard aims to:
 ## 4. Dataset
 
 * **Dataset:** Online Retail
-* **Source:** UCI Machine Learning Repository
+* **Source:** UCI Machine Learning Repository9(https://archive.ics.uci.edu/dataset/352/online+retail)
 * **Creator:** Daqing Chen
 * **Year:** 2015
 * **Original Records:** 541,909
@@ -219,6 +219,11 @@ This approach was selected to:
 * Avoid unnecessary bidirectional relationships
 * Maintain a clear star-schema structure
 * Support efficient filtering and analysis
+<img width="1738" height="736" alt="image" src="https://github.com/user-attachments/assets/44d92e1d-d6b8-4f04-b2ca-f816658d9527" />
+
+<img width="1574" height="633" alt="image" src="https://github.com/user-attachments/assets/77c21c7a-a342-4f1e-8028-b3e44a1a4841" />
+
+
 
 ---
 
@@ -434,6 +439,9 @@ A bar chart highlights the products generating the highest revenue.
 
 Year and Country slicers allow users to filter the dashboard dynamically.
 
+<img width="1322" height="738" alt="image" src="https://github.com/user-attachments/assets/eb4cbfb9-205d-45db-8be6-86744a440b44" />
+
+
 ---
 
 # 10. Page 2 — Customer & Transaction Analysis
@@ -476,9 +484,28 @@ A table provides customer-level information including:
 
 Year and Country slicers allow users to analyse customer and transaction performance under different filters.
 
+<img width="1316" height="740" alt="image" src="https://github.com/user-attachments/assets/54492b73-3b4d-44fa-beac-21c359960b13" />
+
 ---
 
-# 11. Dashboard Design and Quality
+# 11. Page 3 — Sales Performance Diagnostic Analysis
+
+The third page provides advanced diagnostic analysis rather than simply reporting overall performance. The analysis investigates why some products generate more revenue than others by examining product revenue, quantity sold, and average unit price.
+
+Visualisations
+Top 10 Products by Revenue – identifies the products contributing the most revenue.
+Product Diagnostic Details – provides detailed revenue, quantity, and average unit price information for the highest-revenue products.
+Revenue vs Quantity — Top 10 Products – examines whether high revenue is associated with higher quantities sold.
+Revenue vs Average Unit Price — Top 10 Products – examines whether product price contributes to higher revenue.
+Return Rate – provides an indicator of the proportion of returned quantity.
+Year and Country slicers – allow the analysis to be explored under different filters.
+
+The page supports diagnostic questions such as whether products generate high revenue because they sell in larger quantities, have higher prices, or a combination of both.
+
+<img width="1324" height="743" alt="image" src="https://github.com/user-attachments/assets/d89b902b-faa0-4c92-af00-77b25c4fa84c" />
+
+---
+# 12. Dashboard Design and Quality
 
 The dashboard was designed according to the following principles:
 
@@ -504,28 +531,6 @@ A consistent colour palette is used across the dashboard to maintain a professio
 ### Interactivity
 
 Slicers and Power BI filter context allow users to explore the data dynamically by year, country, customer, and other dimensions.
-
----
-
-# 12. Dashboard Screenshots
-
-Screenshots of the completed dashboard pages can be included below.
-
-### Page 1 — Executive Sales Overview
-
-
-
-### Page 2 — Customer & Transaction Analysis
-
-
-
-### Data Model
-
-<img width="975" height="429" alt="image" src="https://github.com/user-attachments/assets/45cbbc9d-800e-459c-bc13-e5fa9872feda" />
-
-
-<img width="975" height="461" alt="image" src="https://github.com/user-attachments/assets/0aad8716-5977-40a4-905e-f8fb6d50f590" />
-
 
 ---
 
